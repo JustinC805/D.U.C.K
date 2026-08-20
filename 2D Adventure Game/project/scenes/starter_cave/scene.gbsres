@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "49912e91-0cdc-412a-8513-1e9bce22be3c",
+  "_index": 0,
+  "name": "Starter Cave",
+  "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0015+0f12+002+0f!0010+0f!002+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+00c+0f!008+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 344,
+  "y": 152,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

@@ -1,33 +1,33 @@
 {
   "_resourceType": "trigger",
-  "id": "d8200245-5aa1-4e8b-aa30-1a13bd2a9e1a",
-  "_index": 0,
-  "symbol": "trigger_4",
+  "id": "86550f39-7a86-40af-94ee-1993abf52082",
+  "name": "Starter Cave Exit",
   "prefabId": "",
-  "name": "",
   "x": 9,
   "y": 16,
-  "width": 2,
-  "height": 1,
+  "symbol": "trigger_6",
   "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
   "script": [
     {
-      "id": "f985ad64-ad48-4792-817b-2d57ae6956ff",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "94c18861-b352-4f49-a64d-52f2e3415077",
+        "sceneId": "f9faa812-748e-4b8c-a838-5acb60849d46",
         "x": {
           "type": "number",
-          "value": 10
+          "value": 24
         },
         "y": {
           "type": "number",
-          "value": 9
+          "value": 10
         },
         "direction": "down",
         "fadeSpeed": "2"
-      }
+      },
+      "id": "a40e16ee-2161-4840-a7c9-bbc51276bafa"
     }
   ],
-  "leaveScript": []
+  "leaveScript": [],
+  "_index": 0
 }
