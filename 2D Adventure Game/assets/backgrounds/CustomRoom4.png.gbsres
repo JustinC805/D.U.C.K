@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e09def00-e262-4b7b-b79e-e17ff85adfbb",
+  "name": "CustomRoom4",
+  "symbol": "bg_customroom4",
+  "tileColors": "",
+  "filename": "CustomRoom4.png",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144
+}

@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "b3f7d923-817d-4a9c-9bf0-aebdbf196968",
+  "id": "50855604-b090-48a6-9398-881585f261d5",
   "name": "Person",
   "frame": 0,
   "animate": false,
@@ -15,18 +15,18 @@
   "collisionGroup": "1",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_0",
+  "symbol": "actor_21",
   "script": [
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "0",
+        "variable": "4",
         "value": {
           "type": "true"
         },
         "__collapse": false
       },
-      "id": "d1578e89-8de1-460c-b097-6d637862e650"
+      "id": "cfdf2725-2e0a-47e1-8d64-5483068331df"
     },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -34,7 +34,7 @@
         "actorId": "$self$",
         "__collapse": false
       },
-      "id": "6440a882-e320-4624-ba8d-27580c054f8f"
+      "id": "93da4518-3643-48c2-b482-7a206bc89f47"
     },
     {
       "command": "EVENT_CAMERA_SHAKE",
@@ -48,7 +48,7 @@
         },
         "__collapse": false
       },
-      "id": "5b09a23c-e098-4ae0-b6f5-ae66927ce68f"
+      "id": "160ed807-2dc9-4bf7-acd8-9ffe5bb49082"
     }
   ],
   "startScript": [],
@@ -57,7 +57,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 11,
-  "y": 6,
-  "_index": 0
+  "x": 24,
+  "y": 21,
+  "_index": 18
 }

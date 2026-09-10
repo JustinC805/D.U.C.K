@@ -11,13 +11,51 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00400+",
+  "collisions": "0041+0f2+006+0f2+00!0f3+0011+0f!002+0f2+002+0f2+002+0f2+002+0f4+00e+0f!006+0f6+004+0f!00e+0f!006+0f!004+0f!004+0f!00e+0f!006+0f!004+0f!004+0f2+00c+0f!007+0f!004+0f!006+0f!003+0f2+007+0f!006+0f6+007+0f3+002+0f5+002+0f!001c+0f!002+0f!001c+0f!00!0f!001e+0f!00!0f!002+0f4+0016+0f!002+0f!002+0f4+0016+0f!002+0f!002+0f4+0016+0f!00!0f!004+0f2+0018+0f!00!0f!001c+0f!002+0f!00d+0fd+002+0f!002+0f!009+0f5+00c+0f!00!0f!00!0f!008+0f3+0010+0f!002+0f!00!0f!007+0f!0012+0f!00!0f!002+0f!007+0f3+0010+0f!00!0f!002+0f!00a+0f2+00d+0f2+00!0f!00!0f!00d+0fd+004+0f!00!0f!001c+0f!002+0f!001c+0f!002+0f!001c+0f!00!0f!001e+0f!00!0f1e+0061+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
   "x": 619,
   "y": 387,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "4"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
+            },
+            "id": "79650b71-5cd1-4312-86b7-3589ce89c4da"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32"
+            },
+            "id": "4c1c8866-a59e-44c8-a377-7d8de3155f73"
+          }
+        ]
+      },
+      "id": "517fc26d-a55c-46ce-9fae-a4790f3816b5"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
+  "autoFadeEventCollapse": true
 }

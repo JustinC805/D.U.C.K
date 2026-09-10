@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "5764c3a9-0a48-477e-b40f-04dd698333a5",
+  "name": "480x320BGTemplate",
+  "symbol": "bg_480x320bgtemplate",
+  "tileColors": "",
+  "filename": "480x320BGTemplate.png",
+  "width": 60,
+  "height": 40,
+  "imageWidth": 480,
+  "imageHeight": 320
+}

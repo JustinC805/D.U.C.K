@@ -1,0 +1,133 @@
+{
+  "_resourceType": "scene",
+  "id": "9286a60e-568e-4517-93e0-86a8ae6e9bed",
+  "_index": 3,
+  "name": "Scene 4",
+  "backgroundId": "5764c3a9-0a48-477e-b40f-04dd698333a5",
+  "tilesetId": "",
+  "width": 60,
+  "height": 40,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 80,
+  "y": 400,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "4"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
+              "__collapse": false
+            },
+            "id": "8aec5de2-d37b-409c-bc0a-7cdc952fda87"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32"
+            },
+            "id": "b1055a18-61f7-4d39-b671-43e9c37290b6"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "50855604-b090-48a6-9398-881585f261d5"
+            },
+            "id": "23940afe-f3e9-4072-83d7-01de252cb9fe"
+          }
+        ]
+      },
+      "id": "4a82e505-aaae-4862-84f6-4634e764427b"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "4"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "f5606a7f-e2cc-472b-b6ab-8dd6e3db290c",
+              "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733",
+              "__collapse": false
+            },
+            "id": "c39e6b4a-4434-4b70-a657-32f7e96f534a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Come talk to me\nHuman when you've\nfound the Duck!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ed7b1cd1-6b4a-49b5-b0be-358c7242ca88"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "f5606a7f-e2cc-472b-b6ab-8dd6e3db290c",
+              "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733",
+              "__collapse": false
+            },
+            "id": "1967d1ff-25b5-4cac-bf51-93959f432a04"
+          }
+        ]
+      },
+      "id": "a0c23a59-42a8-4057-bedd-cfeb8b717ecc"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
+  "autoFadeEventCollapse": true
+}
