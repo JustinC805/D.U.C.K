@@ -1,0 +1,15 @@
+{
+  "_resourceType": "trigger",
+  "id": "b32f9d65-afde-40d7-a419-92e3f0ca054b",
+  "name": "Test Doorway",
+  "prefabId": "",
+  "x": 9,
+  "y": 16,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 2,
+  "script": [],
+  "leaveScript": [],
+  "_index": 0
+}

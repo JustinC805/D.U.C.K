@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b8f93525-d782-469d-8dde-d265b7e7f4f9",
+  "name": "CustomBackground1",
+  "symbol": "bg_custombackground1",
+  "tileColors": "",
+  "filename": "CustomBackground1.png",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160
+}

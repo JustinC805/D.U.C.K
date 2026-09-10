@@ -3,20 +3,44 @@
   "id": "49912e91-0cdc-412a-8513-1e9bce22be3c",
   "_index": 0,
   "name": "Starter Cave",
-  "backgroundId": "6fad1892-bcb2-4924-bd1c-1e4d03dfeabb",
+  "backgroundId": "b8f93525-d782-469d-8dde-d265b7e7f4f9",
   "tilesetId": "",
   "width": 20,
-  "height": 18,
+  "height": 20,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0015+0f12+002+0f!0010+0f!002+0f12+002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f!0010+0f!002+0f8+002+0f8+00c+0f!008+",
+  "collisions": "0016+0f10+004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f7+002+0f7+002+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
   "x": 344,
   "y": 152,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "b3f7d923-817d-4a9c-9bf0-aebdbf196968"
+            },
+            "id": "9968ddf1-2c1e-4a73-83dc-809ddec14505"
+          }
+        ],
+        "false": []
+      },
+      "id": "bcd3f7f0-ec7a-48c9-9d92-14d893603e67"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
