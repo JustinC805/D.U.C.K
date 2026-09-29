@@ -23,7 +23,7 @@
     },
     {
       "id": "4",
-      "name": "foundduck2",
+      "name": "foundDuck2",
       "symbol": "var_foundduck2"
     },
     {
@@ -38,13 +38,13 @@
     },
     {
       "id": "7",
-      "name": "Quest4",
-      "symbol": "var_quest4"
+      "name": "introduction",
+      "symbol": "var_introduction"
     },
     {
       "id": "8",
-      "name": "Quest5",
-      "symbol": "var_quest5"
+      "name": "allPuzzlesSolved",
+      "symbol": "var_allpuzzlessolved"
     },
     {
       "id": "9",
@@ -65,6 +65,86 @@
       "id": "12",
       "name": "PushedIceBlock",
       "symbol": "var_pushediceblock"
+    },
+    {
+      "id": "15",
+      "name": "spokenToPerson1",
+      "symbol": "var_spokentoperson1"
+    },
+    {
+      "id": "13",
+      "name": "everythingSpokenTo",
+      "symbol": "var_everythingspokento"
+    },
+    {
+      "id": "14",
+      "name": "spokenToRock",
+      "symbol": "var_spokentorock"
+    },
+    {
+      "id": "16",
+      "name": "spokenToPerson2",
+      "symbol": "var_spokentoperson2"
+    },
+    {
+      "id": "17",
+      "name": "spokenToPerson3",
+      "symbol": "var_spokentoperson3"
+    },
+    {
+      "id": "18",
+      "name": "introductionSign",
+      "symbol": "var_introductionsign"
+    },
+    {
+      "id": "19",
+      "name": "puzzleLocationSign",
+      "symbol": "var_puzzlelocationsign"
+    },
+    {
+      "id": "20",
+      "name": "puzzle5",
+      "symbol": "var_puzzle5"
+    },
+    {
+      "id": "8ae81c3a-3c53-439d-bcfb-c351f02d970a__L0",
+      "name": "endingDoor",
+      "symbol": "var_endingdoor"
+    },
+    {
+      "id": "21",
+      "name": "puzzle4",
+      "symbol": "var_puzzle4"
+    },
+    {
+      "id": "22",
+      "name": "puzzle3",
+      "symbol": "var_puzzle3"
+    },
+    {
+      "id": "23",
+      "name": "puzzle2",
+      "symbol": "var_puzzle2"
+    },
+    {
+      "id": "24",
+      "name": "puzzle1",
+      "symbol": "var_puzzle1"
+    },
+    {
+      "id": "25",
+      "name": "spokenToDog",
+      "symbol": "var_spokentodog"
+    },
+    {
+      "id": "26",
+      "name": "spokenToCat",
+      "symbol": "var_spokentocat"
+    },
+    {
+      "id": "27",
+      "name": "Variable 27",
+      "symbol": "var_variable_27"
     }
   ],
   "constants": []

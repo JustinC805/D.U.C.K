@@ -1,0 +1,84 @@
+{
+  "_resourceType": "scene",
+  "id": "49912e91-0cdc-412a-8513-1e9bce22be3c",
+  "_index": 0,
+  "name": "Puzzle 1",
+  "backgroundId": "6b785563-a666-489f-b0dd-da516c0e5608",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00190+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 344,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "b3f7d923-817d-4a9c-9bf0-aebdbf196968"
+            },
+            "id": "9968ddf1-2c1e-4a73-83dc-809ddec14505"
+          }
+        ],
+        "false": []
+      },
+      "id": "bcd3f7f0-ec7a-48c9-9d92-14d893603e67"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "4"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
+            },
+            "id": "56664a27-2452-4215-9daf-f2cd7d38a466"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32"
+            },
+            "id": "f867d217-c778-48b0-b997-00f40bed4e9b"
+          }
+        ]
+      },
+      "id": "9f470ef5-9b43-4b1f-afaa-c711c10004b9"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
+  "autoFadeEventCollapse": true
+}

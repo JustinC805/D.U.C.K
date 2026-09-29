@@ -1,0 +1,248 @@
+{
+  "_resourceType": "actor",
+  "id": "1a95f94e-53f6-48bc-b2c9-2c1952ebe94f",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "3939e8d2-3987-4a22-953e-f1d82134eccf",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_26",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "4"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "(It's a rock..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "575a293a-08fa-4e35-b711-0ae15a5a36de"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Although, you're\nfinding yourself \ncomfy with it..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "5684b69a-78a7-4b7e-9cfa-5cbbaf0cf335"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Goodbye beautiful\nrock.)"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "870e94a1-e9a8-4f01-ad77-34a5342819da"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "14",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": false
+            },
+            "id": "6ad3eb28-777b-4991-9fb5-bdbedfb9f51a"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Hey there partner!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "790a8b5a-17ac-4952-8a02-f23c971d44fe"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "My name is rocky!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "295dfc28-31e7-4abc-a6ec-a549c0fcaea8"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "It's great to meet\nanother fellow\nduck!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "da0eb822-6a0c-4596-9543-27e8d0a5f514"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "14",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": false
+            },
+            "id": "e5e2617e-54e0-4669-8332-47c7abe7f96f"
+          }
+        ]
+      },
+      "id": "68ff7cdf-7b52-40c3-ae66-2c336f1519e5"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "4"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "$self$",
+              "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32"
+            },
+            "id": "d99eab82-d359-49ac-adc2-4d5bb60f5397"
+          }
+        ],
+        "false": []
+      },
+      "id": "be6e5b74-c79a-4f39-954c-13acd81b7c23"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 6,
+  "y": 45,
+  "_index": 5
+}

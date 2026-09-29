@@ -1,0 +1,293 @@
+{
+  "_resourceType": "actor",
+  "id": "42642f71-014e-4583-b4ae-dcee8b71bd33",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f7055b84-4fc5-416b-a7db-d41900760f48",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_31",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "18"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Welcome Human!\nSeems like you're\nstuck here..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "64f279b2-7a28-4774-8803-32c8cbad32d5"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "To unlock the door\nyou came from..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "1a37a9bf-9b5d-407f-b7dc-1c43d2b59a41"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Solve the 5\npuzzles waiting\nfor you!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c74f9348-6b5c-4dfa-90c7-f0a0ad1d6f55"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The first puzzle\nwill be to the\nright."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "644ff34a-22ef-4376-8e35-e226c6f5ab0f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Once all puzzles\nare solved, you're\nready to go home!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "561a9e6f-279c-49e0-8459-7653bd3a4a27"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Are you ready?\nGood Luck Human!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "0ef0e32b-b384-49a6-ae4b-eefc5cf5df61"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": false
+            },
+            "id": "cfd9cec5-50e3-490e-9516-02e66a049332"
+          },
+          {
+            "command": "EVENT_CAMERA_SHAKE",
+            "args": {
+              "time": 1,
+              "frames": 30,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "number",
+                "value": 1
+              }
+            },
+            "id": "271b3a99-01f0-4dd3-b055-79d00168a7c2"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "7424c6fa-2d47-412b-9907-65d0d5db9f39"
+            },
+            "id": "3f61ca15-e11b-4678-a56b-8435aa982172"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "151c4c72-a598-4010-8dd8-c8509f092728"
+            },
+            "id": "caf69a85-6e86-419d-b9ef-e65075b5b23c"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "68dcac89-00c3-4041-9163-3920b9b5f5df"
+            },
+            "id": "ca19981e-f0cf-4f16-b8a9-248457ba11e4"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "1e3bc4ed-b252-47a4-a9a4-69af5324f0a6"
+            },
+            "id": "1e68af1b-fd4c-44f5-8dab-c3335da2c1e4"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "18",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": false
+            },
+            "id": "ab6efaaa-50cb-4a57-854b-c4bdfe1580bb"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$",
+              "__collapse": false
+            },
+            "id": "698b5052-3186-4fb3-b34e-b7c649dd2da4"
+          }
+        ]
+      },
+      "id": "f2767541-e1fc-4a36-abd5-64bc3200cf6b"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "18"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "d56a2738-6b20-489b-94a1-09101abebf4a"
+          }
+        ],
+        "false": []
+      },
+      "id": "3403201c-3b01-400d-b71c-59056e662a98"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 10,
+  "y": 8,
+  "_index": 4
+}

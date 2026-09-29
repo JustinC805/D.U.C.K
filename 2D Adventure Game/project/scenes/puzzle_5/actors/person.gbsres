@@ -1,0 +1,63 @@
+{
+  "_resourceType": "actor",
+  "id": "50855604-b090-48a6-9398-881585f261d5",
+  "name": "Person",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "1",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_21",
+  "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "4",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": true
+      },
+      "id": "cfdf2725-2e0a-47e1-8d64-5483068331df"
+    },
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$",
+        "__collapse": false
+      },
+      "id": "93da4518-3643-48c2-b482-7a206bc89f47"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 1,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 1
+        },
+        "__collapse": false
+      },
+      "id": "160ed807-2dc9-4bf7-acd8-9ffe5bb49082"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 48,
+  "y": 27,
+  "_index": 18
+}

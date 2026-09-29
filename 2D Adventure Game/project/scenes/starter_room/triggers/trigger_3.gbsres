@@ -1,0 +1,103 @@
+{
+  "_resourceType": "trigger",
+  "id": "adff310e-d024-478d-8f02-209d3cf7f287",
+  "name": "",
+  "prefabId": "",
+  "x": 40,
+  "y": 42,
+  "symbol": "trigger_7",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "4"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9286a60e-568e-4517-93e0-86a8ae6e9bed",
+              "x": {
+                "type": "number",
+                "value": 2
+              },
+              "y": {
+                "type": "number",
+                "value": 2
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "d5572d6f-a93f-43d3-bb96-1396195ab3ce"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Seems like all the\nDucks disappeared."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "1abddc9d-6343-47a0-971e-0323fab13eb7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "No point in going\nback there."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ddffbc71-0adb-485e-b378-72b4740f2fa2"
+          }
+        ]
+      },
+      "id": "ba113ded-f400-4f39-976e-a953d57477fd"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 2
+}

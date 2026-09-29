@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "307e97f4-c1ec-4fd5-af5e-35c9dce19281",
+  "name": "LongHallwayV5",
+  "symbol": "sprite_longhallwayv5",
+  "states": [
+    {
+      "id": "86e72715-7235-4c30-9ed0-0f0121645e98",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "39d8c9f2-6d89-4dd6-a014-9aa7ed93ecd6",
+          "frames": [
+            {
+              "id": "708c9405-caf7-4c73-b081-788dc9be218e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "475042d0-bb5b-4852-8cea-16a33c79265f",
+          "frames": [
+            {
+              "id": "b2f8bcce-0514-42a3-a71e-72d558e89437",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "7d97cb7f-438c-4aea-b33e-bedb3096047c",
+          "frames": [
+            {
+              "id": "c99b01d7-d377-4106-884b-1e5590ea9c81",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "12d3b6d6-650f-47c4-b992-1d6810fe017c",
+          "frames": [
+            {
+              "id": "ea08e510-466f-4fc4-9953-37c35a3e8f2e",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "0c36d1d0-1d5d-4251-bce3-27bc79afb596",
+          "frames": [
+            {
+              "id": "6892a4cd-e810-4334-966e-b51f359d9169",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "e4e95060-a05f-42c9-ba63-23ace0f177ce",
+          "frames": [
+            {
+              "id": "d0ee6e48-a6fb-4921-993f-28e84630a49f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "382a9394-640a-478d-b200-98334386bfbd",
+          "frames": [
+            {
+              "id": "6dd005a3-2a5a-45fe-bbf4-6ca579c434aa",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ff50e7f5-efd3-48a5-bc0b-f20805b29ffe",
+          "frames": [
+            {
+              "id": "be10de68-44f5-4efa-abea-7b33860bdc10",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "LongHallwayV5.png",
+  "width": 432,
+  "height": 720,
+  "checksum": "ed5608518797aafe2ed3e2c2cd2ea90aebcf91a3"
+}
