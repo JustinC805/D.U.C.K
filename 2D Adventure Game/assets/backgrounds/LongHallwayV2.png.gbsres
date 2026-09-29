@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6a892363-2157-49a4-8646-d9c26215f494",
+  "name": "LongHallwayV2",
+  "symbol": "bg_longhallwayv2",
+  "tileColors": "",
+  "filename": "LongHallwayV2.png",
+  "width": 100,
+  "height": 100,
+  "imageWidth": 800,
+  "imageHeight": 800
+}

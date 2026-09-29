@@ -1,7 +1,7 @@
 {
   "_resourceType": "scene",
   "id": "9286a60e-568e-4517-93e0-86a8ae6e9bed",
-  "_index": 3,
+  "_index": 2,
   "name": "Scene 4",
   "backgroundId": "5764c3a9-0a48-477e-b40f-04dd698333a5",
   "tilesetId": "",
@@ -14,8 +14,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 80,
-  "y": 400,
+  "x": 72,
+  "y": 480,
   "script": [
     {
       "command": "EVENT_IF",

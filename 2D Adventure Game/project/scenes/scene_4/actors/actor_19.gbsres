@@ -6,7 +6,7 @@
   "animate": false,
   "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
   "prefabId": "",
-  "direction": "down",
+  "direction": "left",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -143,11 +143,11 @@
               "sceneId": "f9faa812-748e-4b8c-a838-5acb60849d46",
               "x": {
                 "type": "number",
-                "value": 25
+                "value": 22
               },
               "y": {
                 "type": "number",
-                "value": 16
+                "value": 13
               },
               "direction": "",
               "fadeSpeed": "2",

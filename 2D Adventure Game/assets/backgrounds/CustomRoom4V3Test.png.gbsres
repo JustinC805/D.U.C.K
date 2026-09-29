@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e6993fec-67b9-4635-92d5-bdff68dfcdc9",
+  "name": "CustomRoom4V3Test",
+  "symbol": "bg_customroom4v3test",
+  "tileColors": "",
+  "filename": "CustomRoom4V3Test.png",
+  "width": 20,
+  "height": 50,
+  "imageWidth": 160,
+  "imageHeight": 400
+}

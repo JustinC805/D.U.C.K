@@ -28,13 +28,13 @@
     },
     {
       "id": "5",
-      "name": "Quest2",
-      "symbol": "var_quest2"
+      "name": "playerIsDuck",
+      "symbol": "var_playerisduck"
     },
     {
       "id": "6",
-      "name": "Quest3",
-      "symbol": "var_quest3"
+      "name": "enterHouse",
+      "symbol": "var_enterhouse"
     },
     {
       "id": "7",
