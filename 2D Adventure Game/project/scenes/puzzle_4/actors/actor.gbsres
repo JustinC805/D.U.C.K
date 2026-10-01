@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "da655c88-c212-413d-9f3d-4fcbda81cd7d",
+  "id": "c559d647-3d65-4ddc-ab08-b3013543cc4d",
   "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
+  "spriteSheetId": "794d5ac5-9920-45a5-9fd6-93a73d534c8a",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -15,234 +15,37 @@
   "collisionGroup": "",
   "collisionExtraFlags": [],
   "prefabScriptOverrides": {},
-  "symbol": "actor_17",
+  "symbol": "actor_38",
   "script": [
     {
-      "command": "EVENT_IF",
+      "command": "EVENT_ACTOR_MOVE_RELATIVE",
       "args": {
-        "condition": {
-          "type": "not",
-          "value": {
-            "type": "variable",
-            "value": "4"
-          }
+        "__section": "movement",
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 5
         },
-        "__collapseElse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "*Woof* *Woof*"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "f4db772d-582c-4570-a598-ebd9f5b231e0"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "*Growls*"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "ea161e0d-c544-45dc-b34b-341ecd7c4ef2"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "(The dog is \nwarning you of \nsomething...)"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "1129e02f-4e20-4d7b-a311-2be04fa6dc7e"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "25",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": false
-            },
-            "id": "e495d8dc-99e1-4e6b-8633-f22161b0beb8"
-          }
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "collideWith": [
+          "walls"
         ],
-        "false": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Hey! "
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "ad5fdcff-b288-47ee-b290-561ea9df2aaf"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Odd question...\nHave you heard a \nduck bark before?"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "81b536d9-f3fd-4b31-9515-1039aa12174c"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Well you do now! \n*Woof* *Woof*"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "3ddbccfe-b4e2-4622-b117-56085f342f2f"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "25",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": false
-            },
-            "id": "a780a8db-3382-4ae9-b2e3-ec80c16dbcc2"
-          }
-        ]
+        "lockDirection": [],
+        "moveType": "horizontal"
       },
-      "id": "3f89165c-246a-4339-a5cd-4566acde8418"
+      "id": "f74d4a66-7afa-4a0d-8f78-55ee28aa69f8"
     }
   ],
-  "startScript": [
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "variable",
-          "value": "4"
-        },
-        "__collapseElse": false,
-        "__collapse": false
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_SET_SPRITE",
-            "args": {
-              "actorId": "$self$",
-              "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32"
-            },
-            "id": "7463c8ef-feb0-4699-a501-1961f4a4f2d9"
-          }
-        ],
-        "false": []
-      },
-      "id": "98a60157-6f68-4304-a3f2-a3a29f12b8c6"
-    }
-  ],
+  "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 6,
-  "y": 16,
+  "x": 7,
+  "y": 74,
   "_index": 0
 }

@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "4aa92391-2878-4e87-b4a8-6dfbafbd734e",
+  "id": "cb1dfc7e-c6fd-4eb9-8694-c9a145b72361",
   "name": "",
   "prefabId": "",
-  "x": 6,
-  "y": 49,
-  "symbol": "trigger_1",
+  "x": 0,
+  "y": 71,
+  "symbol": "trigger_2",
   "prefabScriptOverrides": {},
-  "width": 8,
-  "height": 1,
+  "width": 2,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_IF",
@@ -17,60 +17,16 @@
           "type": "not",
           "value": {
             "type": "variable",
-            "value": "16"
+            "value": "21"
           }
         },
-        "__collapseElse": false
+        "__collapseElse": true
       },
       "children": {
-        "true": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Speak to the right\nperson first..."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "13a101a0-1a47-4938-bb98-1d731dd86b12"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "8b466a7b-893b-4c6e-99d9-c947cc0f36bf",
-              "x": {
-                "type": "number",
-                "value": 41
-              },
-              "y": {
-                "type": "number",
-                "value": 86
-              },
-              "direction": "down",
-              "fadeSpeed": "2"
-            },
-            "id": "03a66a66-7c52-4a61-b8b0-87ba8af863f5"
-          }
-        ]
+        "true": [],
+        "false": []
       },
-      "id": "96dbc0ad-f8f7-47d2-a76c-64ec7ade682d"
+      "id": "f13cb0a4-e6dc-4b0e-9542-ceeefb9da14e"
     }
   ],
   "leaveScript": [],

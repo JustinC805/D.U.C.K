@@ -1,0 +1,129 @@
+{
+  "_resourceType": "sprite",
+  "id": "794d5ac5-9920-45a5-9fd6-93a73d534c8a",
+  "name": "MovableBoxSprite",
+  "symbol": "sprite_movableboxsprite",
+  "states": [
+    {
+      "id": "3fdab242-bb05-464a-b17a-fbcacd08e5f5",
+      "name": "",
+      "animationType": "fixed",
+      "flipLeft": false,
+      "animations": [
+        {
+          "id": "e3d1171e-105f-4fd3-9b6c-f4426d5fa85a",
+          "frames": [
+            {
+              "id": "e02525a7-4085-45a1-8a64-3a0922ade21d",
+              "tiles": [
+                {
+                  "id": "0654c936-a89c-4e17-963d-b67b30630d0b",
+                  "x": 0,
+                  "y": 0,
+                  "sliceX": 0,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                },
+                {
+                  "id": "7d3f8929-05c2-465e-860d-e5849924357c",
+                  "x": 8,
+                  "y": 0,
+                  "sliceX": 8,
+                  "sliceY": 0,
+                  "flipX": false,
+                  "flipY": false,
+                  "palette": 0,
+                  "paletteIndex": 0,
+                  "objPalette": "OBP0",
+                  "priority": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "16037847-c396-4dd8-91ff-6f94422fe9a8",
+          "frames": [
+            {
+              "id": "a8d71dab-2ce8-439d-9c81-15c81dd2c862",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c71f51ee-4016-4fb0-b1b0-bb00c4a25f77",
+          "frames": [
+            {
+              "id": "70510e96-4685-41d9-b881-49379a8212dd",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "628213ef-ddb5-4867-9788-b6b484836bc0",
+          "frames": [
+            {
+              "id": "1b5962ab-1f32-4952-b71b-5bf41e296775",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "f18d4a43-38ee-463a-b91a-55b8292a83a1",
+          "frames": [
+            {
+              "id": "953cd9b6-ac73-4186-91f3-630408084879",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "6d24d6d0-c4c2-4ba7-bfa1-7402a5667534",
+          "frames": [
+            {
+              "id": "a86584bc-c412-4c18-a890-ebaccff6fc97",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "9efb4691-7817-48d8-b9eb-ad673ff258b4",
+          "frames": [
+            {
+              "id": "75ad5704-0673-4559-b6bc-33cd884bb39d",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "723aa826-cd07-49b5-a28e-0594112cda43",
+          "frames": [
+            {
+              "id": "e9e564a9-fd60-44ed-9a60-a82c34c51b82",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 1,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 16,
+  "canvasHeight": 16,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "MovableBoxSprite.png",
+  "width": 16,
+  "height": 16,
+  "checksum": "d772ddb382a803a7d689b64351a5ad30e47612be"
+}

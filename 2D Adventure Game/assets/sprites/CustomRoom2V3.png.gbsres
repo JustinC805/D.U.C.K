@@ -1,0 +1,102 @@
+{
+  "_resourceType": "sprite",
+  "id": "5c25c250-87d8-4a72-bfb4-ca6807b2dfa7",
+  "name": "CustomRoom2V3",
+  "symbol": "sprite_customroom2v3",
+  "states": [
+    {
+      "id": "0c0b06d3-6268-43ca-b5ca-b5aac04217c4",
+      "name": "",
+      "animationType": "multi_movement",
+      "flipLeft": true,
+      "animations": [
+        {
+          "id": "5ab10ade-52a6-470e-a7e6-6b2266c1734e",
+          "frames": [
+            {
+              "id": "ae020816-0bb4-44fc-85fd-fbb96d7871cc",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "1d476fcf-4078-4245-8058-46482a012126",
+          "frames": [
+            {
+              "id": "05f047be-8d39-4b32-9dc0-bc0d5debbe1f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "2c06befc-121b-4afc-ab67-6e095e974e1e",
+          "frames": [
+            {
+              "id": "bab8204b-727a-4432-b7f3-df1d3ff0885f",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "c51dee25-1184-4f73-bdbf-04b108960247",
+          "frames": [
+            {
+              "id": "17eb856d-5e3c-4878-9ecd-3e41ed417ca0",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "92f8f8c6-cd5b-42f7-977c-87518c77acc0",
+          "frames": [
+            {
+              "id": "6d2dd3ea-d692-4d3e-8040-56d79ea73013",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "ade6112e-0913-41b4-89c5-9be48dfcb397",
+          "frames": [
+            {
+              "id": "9fa71794-c02c-4621-ae1c-3a75a8c47681",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "561c6f29-5f04-4de8-8dfd-b2a7375d8fc1",
+          "frames": [
+            {
+              "id": "ccd14dd0-7a18-4e09-94c1-1e70b3319612",
+              "tiles": []
+            }
+          ]
+        },
+        {
+          "id": "8971ac0c-4958-432f-8e2c-3203a6c696ed",
+          "frames": [
+            {
+              "id": "2c1cb181-691e-4685-ba14-ab9e52a2d044",
+              "tiles": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "numTiles": 0,
+  "canvasOriginX": 0,
+  "canvasOriginY": 0,
+  "canvasWidth": 32,
+  "canvasHeight": 32,
+  "boundsX": 0,
+  "boundsY": -8,
+  "boundsWidth": 16,
+  "boundsHeight": 16,
+  "animSpeed": 15,
+  "filename": "CustomRoom2V3.png",
+  "width": 560,
+  "height": 600,
+  "checksum": "f356135b08c0c8de026ee24f75f85b2f5a4d71fa"
+}

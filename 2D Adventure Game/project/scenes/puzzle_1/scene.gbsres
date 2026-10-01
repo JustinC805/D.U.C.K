@@ -11,11 +11,11 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00190+",
+  "collisions": "002a+0f10+004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f7+002+0f7+002+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 344,
-  "y": 32,
+  "x": 384,
+  "y": 30,
   "script": [
     {
       "command": "EVENT_IF",
