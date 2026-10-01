@@ -264,6 +264,31 @@
       "id": "46b6377f-4799-4642-8054-07caf135f4a4"
     },
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "By\nJustin Cervantes"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "6df5a439-ff1f-499a-a155-c37acd49fba8"
+    },
+    {
       "command": "EVENT_RESET_VARIABLES",
       "args": {},
       "id": "3ad79cb7-f8c4-4e7c-bce8-53eceeec4cdc"
