@@ -28,7 +28,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Press Select to\nstart!\n(Z on Keyboard)"
+          "Press A to\nstart!\n(Z on Keyboard)"
         ],
         "__section": "text",
         "avatarId": "",
