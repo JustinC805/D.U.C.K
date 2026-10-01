@@ -3,7 +3,7 @@
   "id": "49912e91-0cdc-412a-8513-1e9bce22be3c",
   "_index": 0,
   "name": "Puzzle 1",
-  "backgroundId": "6b785563-a666-489f-b0dd-da516c0e5608",
+  "backgroundId": "184d7161-1d5d-4e41-8e08-6d444ab1d3d8",
   "tilesetId": "",
   "width": 20,
   "height": 20,
@@ -14,7 +14,7 @@
   "collisions": "002a+0f10+004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f7+002+0f7+002+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 384,
+  "x": 752,
   "y": 30,
   "script": [
     {
@@ -58,7 +58,7 @@
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "spriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26"
+              "spriteSheetId": "fe7facfc-8372-4378-bbfc-a5bc6bae8dff"
             },
             "id": "56664a27-2452-4215-9daf-f2cd7d38a466"
           }
@@ -79,6 +79,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32",
+  "playerSpriteSheetId": "fe7facfc-8372-4378-bbfc-a5bc6bae8dff",
   "autoFadeEventCollapse": true
 }

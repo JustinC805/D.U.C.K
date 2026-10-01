@@ -1,0 +1,91 @@
+{
+  "_resourceType": "actor",
+  "id": "024f5ac1-2a87-43cd-a1ed-20844f3c8968",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "f7055b84-4fc5-416b-a7db-d41900760f48",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "collisionExtraFlags": [],
+  "prefabScriptOverrides": {},
+  "symbol": "actor_56",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "33"
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This sign was\ninteracted with\nalready."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8c04a1dc-16ce-4fb9-9921-27680e10d428"
+          }
+        ],
+        "false": []
+      },
+      "id": "b4b07c1b-0150-4bf4-a7ef-78dceea1a232"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "33",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": false
+      },
+      "id": "aa4635c5-de34-4b11-bab7-ffbef88efd5c"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
+      },
+      "id": "03edaf09-3e17-443b-ae4c-b66678303a06"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "coordinateType": "tiles",
+  "x": 9,
+  "y": 6,
+  "_index": 0
+}

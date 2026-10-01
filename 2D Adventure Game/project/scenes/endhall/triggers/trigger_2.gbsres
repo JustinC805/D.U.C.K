@@ -1,0 +1,67 @@
+{
+  "_resourceType": "trigger",
+  "id": "128332cd-8a37-4cd9-b9ac-15753d659992",
+  "name": "",
+  "prefabId": "",
+  "x": 9,
+  "y": 0,
+  "symbol": "trigger_9",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You've made it...\nAre you ready to\ngo?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "8a06710b-0e78-42f7-a395-637bec53b1cc"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Yes I'm ready",
+        "falseText": "Nope"
+      },
+      "id": "00b7dba2-b405-480d-9231-50b8379da4bc"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "c18a621a-ae37-46f1-b661-19eb86ef9238",
+        "x": {
+          "type": "number",
+          "value": 9
+        },
+        "y": {
+          "type": "number",
+          "value": 19
+        },
+        "direction": "up",
+        "fadeSpeed": 4
+      },
+      "id": "7ffae488-8f3f-499b-a649-0b9c9596c1bb"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

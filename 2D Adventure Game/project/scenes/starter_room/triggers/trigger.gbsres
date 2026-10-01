@@ -11,167 +11,96 @@
   "height": 1,
   "script": [
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You should solve\nall Puzzles before\nyou leave!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ba50b328-3b4a-40f8-befd-423691fdf9aa"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Would you like to\nenter?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "c1caf9c9-fcab-4b6c-a495-d566d944263e"
+    },
+    {
+      "command": "EVENT_CHOICE",
+      "args": {
+        "variable": "L0",
+        "trueText": "Yes",
+        "falseText": "Nope"
+      },
+      "id": "ba7093e0-95d8-4b9a-b388-8926c0efac81"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "not",
-          "value": {
-            "type": "variable",
-            "value": "8"
-          }
+          "type": "variable",
+          "value": "L0"
         },
-        "__collapseElse": false
+        "__collapseElse": true
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_TEXT",
+            "command": "EVENT_SWITCH_SCENE",
             "args": {
-              "text": [
-                "Seems like this\ndoor when you\nentered.."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "sceneId": "66c2ac62-fc28-4297-b61f-0f5d186d79ba",
+              "x": {
+                "type": "number",
+                "value": 9
+              },
+              "y": {
+                "type": "number",
+                "value": 17
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
             },
-            "id": "c2d4bc12-f6a2-4515-9aea-bcff8fa54090"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Perhaps solving\nall the puzzles\nwill unlock it?"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "7ac3d2da-c650-48d4-85ff-9d41a041f0bc"
+            "id": "c543591d-bdcc-4d4a-955a-8fc7fd0913bb"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "You have reached\nthe end of your\njourney..."
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "9c496b7a-bf51-4d8a-8294-b46b94f58d0b"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Are you ready to\nleave?"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "f0e3220f-0c6b-45e8-aaef-756771cd47bc"
-          },
-          {
-            "command": "EVENT_CHOICE",
-            "args": {
-              "variable": "L0",
-              "trueText": "I'm ready",
-              "falseText": "Nope"
-            },
-            "id": "e87c279c-41e1-4c8a-9545-6e8b5ba1f5be"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "variable",
-                "value": "L0"
-              },
-              "__collapseElse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_SWITCH_SCENE",
-                  "args": {
-                    "sceneId": "f9faa812-748e-4b8c-a838-5acb60849d46",
-                    "x": {
-                      "type": "number",
-                      "value": 24
-                    },
-                    "y": {
-                      "type": "number",
-                      "value": 10
-                    },
-                    "direction": "",
-                    "fadeSpeed": "2",
-                    "__collapse": false
-                  },
-                  "id": "7d6ae9ea-68df-49d6-a30d-6a5e36250fb7"
-                }
-              ],
-              "false": []
-            },
-            "id": "dd6c9107-33ca-475f-b121-59b8c36fe27e"
-          }
-        ]
+        "false": []
       },
-      "id": "1a769da6-a1fa-4023-bbe3-6b7601a7a35e"
+      "id": "02f28759-d890-4cd2-8d08-10940bfb6043"
     }
   ],
   "leaveScript": [],

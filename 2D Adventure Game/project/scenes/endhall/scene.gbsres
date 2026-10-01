@@ -1,0 +1,60 @@
+{
+  "_resourceType": "scene",
+  "id": "66c2ac62-fc28-4297-b61f-0f5d186d79ba",
+  "_index": 5,
+  "name": "EndHall",
+  "backgroundId": "f9da16d6-b2f8-430f-ad00-d87c097c4996",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "TOPDOWN",
+  "colorModeOverride": "none",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "005+0f4+002+0f4+00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f!008+0f!00a+0f4+002+0f4+005+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_6",
+  "x": 408,
+  "y": 280,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "4"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "fe7facfc-8372-4378-bbfc-a5bc6bae8dff"
+            },
+            "id": "877eddb2-41e6-4b22-a2bf-cf76b6dc177e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32"
+            },
+            "id": "528dca3a-cb6d-44b4-85b3-d95d739b7247"
+          }
+        ]
+      },
+      "id": "35839e9f-e0f1-43ee-8b0a-eb5757eee483"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "fe7facfc-8372-4378-bbfc-a5bc6bae8dff"
+}

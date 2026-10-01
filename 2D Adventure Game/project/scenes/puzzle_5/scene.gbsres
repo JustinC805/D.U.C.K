@@ -11,11 +11,11 @@
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "00960+",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 60,
-  "y": 536,
+  "x": 1096,
+  "y": 472,
   "script": [
     {
       "command": "EVENT_IF",
@@ -35,7 +35,7 @@
           {
             "command": "EVENT_PLAYER_SET_SPRITE",
             "args": {
-              "spriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
+              "spriteSheetId": "fe7facfc-8372-4378-bbfc-a5bc6bae8dff",
               "__collapse": false
             },
             "id": "8aec5de2-d37b-409c-bc0a-7cdc952fda87"
@@ -228,6 +228,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "playerSpriteSheetId": "ac1e8ef4-ffe6-47cd-b16f-9af5da77ec26",
+  "playerSpriteSheetId": "fe7facfc-8372-4378-bbfc-a5bc6bae8dff",
   "autoFadeEventCollapse": true
 }

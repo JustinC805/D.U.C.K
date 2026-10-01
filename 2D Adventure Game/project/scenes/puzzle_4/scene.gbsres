@@ -3,55 +3,111 @@
   "id": "5a856f15-e430-45cf-8535-d19bc852b4d8",
   "_index": 4,
   "name": "Puzzle 4",
-  "backgroundId": "cedcd920-7ac3-4ebd-a42c-f3309b328ee0",
+  "backgroundId": "367c395f-db17-46de-bc46-c61bcaf7b931",
   "tilesetId": "",
-  "width": 70,
-  "height": 75,
+  "width": 30,
+  "height": 24,
   "type": "TOPDOWN",
   "colorModeOverride": "none",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "008e+0f42+004+0f!006+0f2+0019+0f2+001b+0f3+004+0f!006+0f2+0019+0f2+001b+0f3+004+0f!002c+0f2+0012+0f!004+0f!002c+0f2+0012+0f!004+0f!002e+0f2+0010+0f!004+0f!002e+0f2+0010+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!008+0f2+0034+0f3+004+0f!008+0f2+0034+0f3+004+0f20+002+0f20+004+0f20+002+0f20+004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!008+0f2+002b+0f2+009+0f!004+0f!008+0f2+002b+0f2+009+0f!004+0f!001d+0f2+0021+0f!004+0f!001d+0f2+0021+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!00d+0f2+001f+0f2+0010+0f!004+0f!00d+0f2+001f+0f2+0010+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0014+0f2+002a+0f!004+0f!0014+0f2+002a+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!001e+0f2+0020+0f!004+0f!001e+0f2+0020+0f!004+0f!0037+0f2+007+0f!004+0f!0037+0f2+007+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0013+0f2+002b+0f!004+0f!0013+0f2+002b+0f!004+0f!002e+0f2+0010+0f!004+0f!002e+0f2+0010+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!004+0f!0040+0f!002+0f3+008+0f2+0036+0f!00d+0f2+002c+0f2+008+0f!003b+0f2+008+0f!002+0f3+001c+0f2+0022+0f!004+0f!001c+0f2+0022+0f!002+",
+  "collisions": "003e+0f1a+004+0f!00f+0f2+007+0f!004+0f!00f+0f2+007+0f!004+0f!006+0f2+0010+0f!004+0f!006+0f2+0010+0f!004+0f!0018+0f!004+0f!0018+0f!004+0f!0018+0f!002+0f3+0018+0f!0019+0f2+002+0f!0019+0f2+002+0f!002+0f3+008+0f2+00e+0f!004+0f!008+0f2+00e+0f!004+0f!0011+0f2+005+0f!004+0f!0011+0f2+005+0f!004+0f!002+0f2+0014+0f!004+0f!002+0f2+0014+0f!004+0f!0018+0f!004+0f!0018+0f!004+0f1a+003e+",
   "autoFadeSpeed": 1,
   "symbol": "scene_2",
-  "x": 584,
-  "y": 344,
+  "x": 1096,
+  "y": 848,
   "script": [
     {
-      "command": "EVENT_ACTOR_EMOTE",
+      "command": "EVENT_IF",
       "args": {
-        "actorId": "c559d647-3d65-4ddc-ab08-b3013543cc4d",
-        "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "4"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
       },
-      "id": "f3f485f9-8076-467e-8e15-70edccff6011"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "fe7facfc-8372-4378-bbfc-a5bc6bae8dff"
+            },
+            "id": "68f5921c-9488-4155-94b5-eb04606473cf"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_PLAYER_SET_SPRITE",
+            "args": {
+              "spriteSheetId": "ede130e6-013a-42d1-a786-1aed3fd3cf32"
+            },
+            "id": "2340262e-bc53-49cc-a608-e6fa1a745e74"
+          }
+        ]
+      },
+      "id": "c04bc96c-db36-4bf1-bfad-0b723eeccad6"
     },
     {
-      "command": "EVENT_TEXT",
+      "command": "EVENT_IF",
       "args": {
-        "text": [
-          "Use this box to\nsolve the puzzle!"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "21"
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "d9e24bbf-f4f9-4e98-8589-cc82f9aa0607"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "c559d647-3d65-4ddc-ab08-b3013543cc4d",
+              "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
+            },
+            "id": "f3f485f9-8076-467e-8e15-70edccff6011"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Use this box to\nsolve the puzzle!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d9e24bbf-f4f9-4e98-8589-cc82f9aa0607"
+          }
+        ],
+        "false": []
+      },
+      "id": "99a15aee-8243-4da5-845d-7c7ac956123e"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "fe7facfc-8372-4378-bbfc-a5bc6bae8dff"
 }

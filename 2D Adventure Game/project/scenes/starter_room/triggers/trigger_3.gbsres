@@ -17,7 +17,7 @@
           "type": "not",
           "value": {
             "type": "variable",
-            "value": "4"
+            "value": "21"
           }
         },
         "__collapseElse": false
@@ -25,29 +25,10 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "9286a60e-568e-4517-93e0-86a8ae6e9bed",
-              "x": {
-                "type": "number",
-                "value": 2
-              },
-              "y": {
-                "type": "number",
-                "value": 2
-              },
-              "direction": "down",
-              "fadeSpeed": "2"
-            },
-            "id": "d5572d6f-a93f-43d3-bb96-1396195ab3ce"
-          }
-        ],
-        "false": [
-          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Seems like all the\nDucks disappeared."
+                "Locked..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -66,13 +47,13 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "1abddc9d-6343-47a0-971e-0323fab13eb7"
+            "id": "dc3172d5-0de6-447e-aa9d-6c5fea75515e"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "No point in going\nback there."
+                "Solve Puzzle 4 to\nunlock!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -91,11 +72,100 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "ddffbc71-0adb-485e-b378-72b4740f2fa2"
+            "id": "7b478d79-f090-48c3-9309-f98d2f6a0e05"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "not",
+                "value": {
+                  "type": "variable",
+                  "value": "4"
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "9286a60e-568e-4517-93e0-86a8ae6e9bed",
+                    "x": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "direction": "down",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "d5572d6f-a93f-43d3-bb96-1396195ab3ce"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Seems like all the\nDucks disappeared."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "1abddc9d-6343-47a0-971e-0323fab13eb7"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "No point in going\nback there."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "ddffbc71-0adb-485e-b378-72b4740f2fa2"
+                }
+              ]
+            },
+            "id": "ba113ded-f400-4f39-976e-a953d57477fd"
           }
         ]
       },
-      "id": "ba113ded-f400-4f39-976e-a953d57477fd"
+      "id": "d0ea2ec8-9339-4e5d-a501-83fbea4d97b8"
     }
   ],
   "leaveScript": [],

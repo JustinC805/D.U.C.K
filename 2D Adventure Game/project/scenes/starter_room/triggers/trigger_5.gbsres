@@ -1,31 +1,211 @@
 {
   "_resourceType": "trigger",
-  "id": "2b781558-a92b-45c7-b636-33a2476948c5",
+  "id": "15db5822-ae06-4693-b9ad-1fdad619ade2",
   "name": "",
   "prefabId": "",
-  "x": 41,
-  "y": 84,
-  "symbol": "trigger_9",
+  "x": 12,
+  "y": 42,
+  "symbol": "trigger_10",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "5a856f15-e430-45cf-8535-d19bc852b4d8",
-        "x": {
-          "type": "number",
-          "value": 3
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "24"
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 72
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": false,
+        "__collapse": false
       },
-      "id": "e7f1cefd-168d-4665-94bb-021d2f416c30"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Locked..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0bd646e8-ad0c-4a33-a381-c5353b5a8c66"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Solve Puzzle 1 to\nunlock!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "1c39fe3c-fed7-4e03-ada1-a93e6ce7db56"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "23"
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "This puzzle has\nbeen solved..."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "b210f341-bf4f-4e4d-9d2d-31a10fdfda09"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Would you like to\nenter?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "74287ae6-17b2-4dab-8f20-5d64ee971624"
+                },
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "30",
+                    "trueText": "Yes",
+                    "falseText": "Nope"
+                  },
+                  "id": "fa21b82e-23c4-4f8c-9b0a-ce5f2a9e40ed"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "30"
+                    },
+                    "__collapseElse": true
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_SWITCH_SCENE",
+                        "args": {
+                          "sceneId": "b1e7a31b-03e8-44d7-adbc-f1808f4a6135",
+                          "x": {
+                            "type": "number",
+                            "value": 2
+                          },
+                          "y": {
+                            "type": "number",
+                            "value": 10
+                          },
+                          "direction": "right",
+                          "fadeSpeed": "2"
+                        },
+                        "id": "4da25b68-b290-452c-80c9-84de8af404d6"
+                      }
+                    ],
+                    "false": []
+                  },
+                  "id": "f206a41e-9b48-432a-9708-d30f763ee89d"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "b1e7a31b-03e8-44d7-adbc-f1808f4a6135",
+                    "x": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 10
+                    },
+                    "direction": "right",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "d54ab42d-4817-4efb-b781-891304827a9c"
+                }
+              ]
+            },
+            "id": "9156eba0-3ab0-402b-9b6e-e219b7e91fa3"
+          }
+        ]
+      },
+      "id": "3d85a69c-c2dc-436a-9a29-75c56748e195"
     }
   ],
   "leaveScript": [],

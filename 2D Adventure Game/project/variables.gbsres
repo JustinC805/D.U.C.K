@@ -138,13 +138,58 @@
     },
     {
       "id": "27",
-      "name": "Variable 27",
-      "symbol": "var_variable_27"
+      "name": "enterPuzzle4",
+      "symbol": "var_enterpuzzle4"
     },
     {
       "id": "8ae81c3a-3c53-439d-bcfb-c351f02d970a__L0",
       "name": "endingDoor",
       "symbol": "var_endingdoor"
+    },
+    {
+      "id": "28",
+      "name": "enterPuzzle1",
+      "symbol": "var_enterpuzzle1"
+    },
+    {
+      "id": "32",
+      "name": "puzzle4Reset",
+      "symbol": "var_puzzle4reset"
+    },
+    {
+      "id": "29",
+      "name": "enterPuzzle3",
+      "symbol": "var_enterpuzzle3"
+    },
+    {
+      "id": "33",
+      "name": "puzzle2Sign1",
+      "symbol": "var_puzzle2sign1"
+    },
+    {
+      "id": "34",
+      "name": "puzzle2Sign2",
+      "symbol": "var_puzzle2sign2"
+    },
+    {
+      "id": "36",
+      "name": "puzzle2Sign4",
+      "symbol": "var_puzzle2sign4"
+    },
+    {
+      "id": "35",
+      "name": "puzzle2Sign3",
+      "symbol": "var_puzzle2sign3"
+    },
+    {
+      "id": "30",
+      "name": "enterPuzzle2",
+      "symbol": "var_enterpuzzle2"
+    },
+    {
+      "id": "128332cd-8a37-4cd9-b9ac-15753d659992__L0",
+      "name": "enterEndRoom",
+      "symbol": "var_enterendroom"
     }
   ],
   "constants": []

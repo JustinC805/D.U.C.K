@@ -60,7 +60,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "To unlock the door\nyou came from..."
+                "To remove the \nblockage in the \nHall..."
               ],
               "__section": "text",
               "avatarId": "",
@@ -85,7 +85,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Solve the 5\npuzzles waiting\nfor you!"
+                "Solve the 5\nPuzzles waiting\nfor you!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -110,7 +110,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The first puzzle\nwill be to the\nright."
+                "The first Puzzle\nwill be to the\nright."
               ],
               "__section": "text",
               "avatarId": "",
@@ -135,7 +135,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Once all puzzles\nare solved, you're\nready to go home!"
+                "Once all Puzzles\nare solved, you're\nready to go home!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -160,7 +160,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Are you ready?\nGood Luck Human!"
+                "Are you ready?\nGood luck Human!"
               ],
               "__section": "text",
               "avatarId": "",

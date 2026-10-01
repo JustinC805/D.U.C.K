@@ -29,6 +29,14 @@
       "id": "cfdf2725-2e0a-47e1-8d64-5483068331df"
     },
     {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
+      },
+      "id": "ca054973-553e-49a5-b68e-36f84857374c"
+    },
+    {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$",
@@ -59,5 +67,5 @@
   "coordinateType": "tiles",
   "x": 48,
   "y": 27,
-  "_index": 18
+  "_index": 1
 }

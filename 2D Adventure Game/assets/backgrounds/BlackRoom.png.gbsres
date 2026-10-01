@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "dd9266a4-384b-4113-9a52-7c629d5fca87",
+  "name": "BlackRoom",
+  "symbol": "bg_blackroom",
+  "tileColors": "",
+  "filename": "BlackRoom.png",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160
+}

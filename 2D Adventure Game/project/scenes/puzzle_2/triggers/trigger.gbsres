@@ -1,0 +1,95 @@
+{
+  "_resourceType": "trigger",
+  "id": "43cd5f22-bba5-4e1c-898e-8dddbc13ebbe",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 9,
+  "symbol": "trigger_11",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "8b466a7b-893b-4c6e-99d9-c947cc0f36bf",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 44
+        },
+        "direction": "down",
+        "fadeSpeed": "2"
+      },
+      "id": "843bb943-c7af-41be-ab61-8d1c4c28f0b7"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "23"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Solve the Puzzle \nbefore you can\nleave!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7ea17824-16d5-43f2-b670-c36396f34186"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "8b466a7b-893b-4c6e-99d9-c947cc0f36bf",
+              "x": {
+                "type": "number",
+                "value": 12
+              },
+              "y": {
+                "type": "number",
+                "value": 44
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "10e2cb76-af65-488b-af54-f265103f1a77"
+          }
+        ]
+      },
+      "id": "02ac97ce-1d51-44c3-8774-9c02ec13bc22"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

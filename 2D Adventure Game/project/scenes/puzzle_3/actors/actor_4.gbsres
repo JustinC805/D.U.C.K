@@ -107,6 +107,14 @@
             "id": "5b8ecef5-12ad-47d8-8e61-ee59a1c91eef"
           },
           {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "da932101-c304-4f21-8dc9-0f5dc6178727"
+            },
+            "id": "77c46abe-5fa3-4387-b464-c112268d8709"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "16",
@@ -203,6 +211,14 @@
               "closeDelayFrames": 30
             },
             "id": "71572b38-f207-4abf-851d-8ed41bc56d94"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "a0fb64c2-d665-4f58-8739-f4dc78519733"
+            },
+            "id": "2738202a-b3b0-4402-9802-18312851b649"
           },
           {
             "command": "EVENT_SET_VALUE",

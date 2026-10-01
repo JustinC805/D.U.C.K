@@ -18,25 +18,68 @@
   "symbol": "actor_38",
   "script": [
     {
-      "command": "EVENT_ACTOR_MOVE_RELATIVE",
+      "command": "EVENT_ACTOR_PUSH",
       "args": {
-        "__section": "movement",
+        "continue": true
+      },
+      "id": "bbccf7db-7181-476d-8e8c-6aae215ac5c0"
+    },
+    {
+      "command": "EVENT_IF_ACTOR_AT_POSITION",
+      "args": {
         "actorId": "$self$",
         "x": {
           "type": "number",
-          "value": 5
+          "value": 21
         },
         "y": {
           "type": "number",
-          "value": 5
+          "value": 12
         },
-        "collideWith": [
-          "walls"
-        ],
-        "lockDirection": [],
-        "moveType": "horizontal"
+        "__collapseElse": true
       },
-      "id": "f74d4a66-7afa-4a0d-8f78-55ee28aa69f8"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Puzzle 4 solved!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2d811206-2f36-4221-948d-1b964d0cf22f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "21",
+              "value": {
+                "type": "true"
+              },
+              "__collapse": false
+            },
+            "id": "fdd72c0c-8509-4833-ab16-37efe2c8e9cb"
+          }
+        ],
+        "false": []
+      },
+      "id": "4976a6d8-8ae0-4bdb-8ba0-fd56958ea054"
     }
   ],
   "startScript": [],
@@ -45,7 +88,7 @@
   "hit2Script": [],
   "hit3Script": [],
   "coordinateType": "tiles",
-  "x": 7,
-  "y": 74,
+  "x": 5,
+  "y": 10,
   "_index": 0
 }
